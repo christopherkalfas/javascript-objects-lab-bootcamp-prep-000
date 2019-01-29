@@ -13,7 +13,7 @@ function deleteFromObjectByKey(object, key) {
   
   Object.assign({},object, {key})
 
-  delete [recipes.breakfast];
+  delete [key];
 
   return object;
 }
