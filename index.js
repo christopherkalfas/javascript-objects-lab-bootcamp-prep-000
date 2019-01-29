@@ -19,7 +19,7 @@ return clone
 }
 
 function destructivelyDeleteFromObjectByKey(object, key){
-  delete recipes[key]
+  delete object[key]
   
   return object
 }
