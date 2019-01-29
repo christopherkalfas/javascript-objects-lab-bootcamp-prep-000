@@ -18,6 +18,6 @@ function deleteFromObjectByKey(object, key) {
 }
 {
   delete [recipes.breakfast];
-
-  return object;
+}
+ { return object;
 }
