@@ -1,10 +1,9 @@
 var recipes= {
-  omlet: 'eggs', 
-  omlet:'bacon'
+  breakfast: 'omlet'
  
 }
 
 function updateObjectWithKeyAndValue(object, key, value){
-  
-  
+  return Object.assign({}, obj, { [key]: value })
 }
+  
