@@ -14,6 +14,6 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 
 function deleteFromObjectByKey(object, key) {
   
-  delete key
+  delete recipes.omlet;
   return Object.assign({}, object)
 }
