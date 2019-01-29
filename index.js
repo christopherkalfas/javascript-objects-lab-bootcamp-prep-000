@@ -13,7 +13,8 @@ function deleteFromObjectByKey(object, key) {
   
  var clone = Object.assign({},object)
 
-  return clone/// recipes[key]
-}
+  delete clone[key]
 
+return clone
+}
 
